@@ -6,22 +6,22 @@ This code book contains information on the variables, data and work that was per
 ## Raw data preprocessing
 
 ### Collection of raw data
-Download the raw data from weblink https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
-Unzip to reveal _UCI HAR Dataset_ folder containing the following files:
-1. 'README.txt' containing summary of the data set collected, files and description of each file included in the data set,  additional notes and license information.
-2. 'features_info.txt' which provides an explanation of what each feature represents.
-3. 'features.txt' is a list of all features which will be used as column names.
-4. 'activity_labels.txt' links the class labels found in y_train.txt and y_test.txt with their activity name.
-5. Subfolder _train_
-	1. 'train/X_train.txt' contains data on the training set.
-	2. 'train/y_train.txt' contains data on activities performed by the subject.
-	3. 'train/subject_train.txt' identifies the subject on the training set who performed the activity for each window sample in each row. Its range is from 1 to 30. 
-	4. Subfolder _Inertia Signals_ whose contents are not used by the R script.
-6. Subfolder _test
-	1. 'test/X_test.txt' contains data on the test set.
-	2. 'train/y_test.txt' contains data on activities performed by the subject.
-	3. 'train/subject_test.txt' identifies the subject on the test set who performed the activity for each window sample in each row. Its range is from 1 to 30.
-	4. Subfolder _Inertia Signals_ whose contents are not used by the R script.
+* Download the raw data from weblink https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+* Unzip to reveal _UCI HAR Dataset_ folder containing the following files:
+	1. 'README.txt' containing summary of the data set collected, files and description of each file included in the data set,  additional notes and license information.
+	2. 'features_info.txt' which provides an explanation of what each feature represents.
+	3. 'features.txt' is a list of all features which will be used as column names.
+	4. 'activity_labels.txt' links the class labels found in y_train.txt and y_test.txt with their activity name.
+	5. Subfolder _train_
+		1. 'train/X_train.txt' contains data on the training set.
+		2. 'train/y_train.txt' contains data on activities performed by the subject.
+		3. 'train/subject_train.txt' identifies the subject on the training set who performed the activity for each window sample in each row. Its range is from 1 to 30. 
+		4. Subfolder _Inertia Signals_ whose contents are not used by the R script.
+	6. Subfolder _test
+		1. 'test/X_test.txt' contains data on the test set.
+		2. 'train/y_test.txt' contains data on activities performed by the subject.
+		3. 'train/subject_test.txt' identifies the subject on the test set who performed the activity for each window sample in each row. Its range is from 1 to 30.
+		4. Subfolder _Inertia Signals_ whose contents are not used by the R script.
 
 ### Notes on the original (raw) data
 * Features are normalized and bounded within [-1,1].
